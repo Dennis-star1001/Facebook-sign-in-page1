@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3b5998;
+    height: 80px;
+}
+nav h1{
+    
+    width: 200px;
+    padding: 20px;
+}
+nav form{
+    
+    margin: 20px;
+}
+nav form .form-field{
+    display: inline-block;
+}
+nav form .form-field input:focus{
+    outline: none;
+}
+nav form .form-field p{
+    padding-bottom: 4px;
+    color: white;
+    font-size:13px;
+    
+}
+nav form .login-btn{
+    font-weight: 600;
+    float: right;
+    background-color: #3b5998;
+    color: white;
+    height: 20px;
+    width: 50px;
+    margin: 18px;
+    border: none;
+    
+    box-shadow: 0 0 5px #131212;
+    
+}
+
+nav .box h1{
+    color: #e9e8e8;
+    font-size: 40px;
+}
+
+nav form .form-field a{
+    text-decoration: none;
+    color: #e4e3e1cc;
+    font-size:13px;
+}
+
+.main-form{
+    background-color: #dedfe4;
+    display: flex;
+    justify-content: center;
+    height: 87vh;
+}
+.main-form .box{
+    width: auto;
+    height: 400px;
+}
+.main-form .box form{
+    margin: 20px;
+}
+form .form{
+   display: inline-block;
+   margin: 20px;
+}
+form .form .radio{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+form .form .policy{
+    font-size:11px;
+}
+form .form .policy a{
+    text-decoration: none;
+}
+form .form .create-btn{
+    height: 35px;
+    width: 170px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #037003;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+   
+}
+form .form .header h1{
+    margin-bottom: 10px;
+}
+form .form .two-input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form .form .form-field{
+    
+    margin-bottom: 20px;
+}
+form .form .two-input input{
+    border: none;
+    width: 173px;
+    padding: 5px;
+    height: 25px;
+    border-radius: 5px;
+    border:1px solid #cfc7c7;
+}
+form .form .form-field input{
+    border:1px solid #cfc7c7;
+    border-radius: 5px;
+    padding: 5px;
+    width: 358px;
+    height: 25px;
+}
+form .form .two-input input:focus{
+    outline: none ;
+}
+form .form .form-field input:focus{
+    outline: none ;
+}
+form .form .dropdown:hover .dropdown-content {
+    display: block;
+  }
